@@ -1,0 +1,1 @@
+// Tyscript sẽ hiểu .d.ts là data type nên không cần import
