@@ -2,13 +2,14 @@ import React from "react";
 import { Provider } from "react-redux";
 import Head from "next/head";
 import { ThemeProvider } from "next-themes";
-import Header from "../header";
 
-import Footer from "../footer";
+
 import { ToastContainer } from "react-toastify";
 //import { useLanguage } from "../../hooks/useLanguage";
 import NextNProgress from "nextjs-progressbar";
 import store from "@/lib/store";
+import Header from "@/components/header";
+import Footer from "@/components/layout/Layout.footer";
 
 
 const RootLayout: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
